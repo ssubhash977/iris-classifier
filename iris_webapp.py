@@ -15,7 +15,7 @@ def classify(num):
     else:
         return 'Virginica'
 def main():
-    st.title("Streamlit Tutorial")
+    st.title("Iris Classifier")
     html_temp = """
     <div style="background-color:teal ;padding:10px">
     <h2 style="color:white;text-align:center;">Iris Classification</h2>
